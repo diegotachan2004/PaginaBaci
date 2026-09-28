@@ -128,7 +128,7 @@
             line-height: 1.7;
         }
 
-        /* Estilo para las ventajas clave dentro del Hero */
+        /* Tarjetas de soluciones clave en el Hero */
         .hero-features {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -347,7 +347,7 @@
 
         .contact-item {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 1rem;
             font-weight: 600;
             color: var(--primary);
@@ -360,6 +360,7 @@
             padding: 0.75rem;
             border-radius: 50%;
             border: 1px solid #e2e8f0;
+            margin-top: 0.1rem;
         }
 
         .contact-form {
@@ -449,7 +450,7 @@
         <div class="hero-content">
             <h1>Optimiza tu cadena de suministro con <span>Bacientregas</span></h1>
             <p class="hero-subtitle">
-                Dirigido a PyMEs que buscan dar el siguiente paso en eficiencia operativa. Simplificamos tu día a día conectándote con las soluciones que tu negocio necesita para crecer sin fricciones.
+                Especialmente dirigido a PyMEs de <strong>Querétaro, Celaya y alrededores</strong> que buscan dar el siguiente paso en eficiencia operativa. Simplificamos tu día a día conectándote con las soluciones que tu negocio necesita.
             </p>
             
             <!-- Tarjetas de soluciones clave -->
@@ -533,9 +534,14 @@
         <div class="contact-grid">
             <div class="contact-info">
                 <h3>Información Directa</h3>
-                <p>Comunícate por teléfono o escríbenos por correo electrónico para una atención personalizada inmediata.</p>
+                <p>Visítanos en nuestra oficina, comunícate por teléfono o escríbenos por correo electrónico para una atención personalizada.</p>
                 
                 <div class="contact-details">
+                    <!-- Dirección de la oficina -->
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span style="font-size: 0.95rem; line-height: 1.5;">Calle 16 de Septiembre #303, Col. Centro, Apaseo el Alto, Guanajuato</span>
+                    </div>
                     <div class="contact-item">
                         <i class="fa-solid fa-phone"></i>
                         <span>438 102 2929</span>
